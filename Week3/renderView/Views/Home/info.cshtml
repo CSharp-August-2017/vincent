@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Information</title>
+</head>
+<body>
+    <h3>The Current time and date</h3>
+    @{
+        DateTime CurrentTime = DateTime.Now;
+        
+        <h3>@String.Format("{0:MMM dd yyyy}", CurrentTime)</h3>
+        <h4>@String.Format("{0:HH:mm tt}", CurrentTime)</h4>
+
+        <p>@CurrentTime</p>
+    }
+
+
+    <h3>Welcome</h3>
+    <p>This Address information come from HomeController with viewbag</p>
+    <ul>
+    @{
+        foreach(var row in ViewBag.PhoneBook){
+            <li>@row.Key: @row.Value</li>
+        }
+    }
+    </ul>
+
+    <p>This fruit information is local here in info.cshtml</p>
+    <ul>
+    @{ 
+        var FruitList = new List<string>{"Mango", "Apple", "Banana", "Watermelon"};
+        foreach(var Fruit in FruitList)
+        {
+            <li>@Fruit</li>
+        }    
+    }
+    </ul>
+
+    
+</body>
+</html>

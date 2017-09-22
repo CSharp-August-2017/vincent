@@ -1,0 +1,8 @@
+C:\Users\vincentslai\Documents\DojoAssignments\c\renderview\bin\Debug\netcoreapp1.1\renderview.deps.json
+C:\Users\vincentslai\Documents\DojoAssignments\c\renderview\bin\Debug\netcoreapp1.1\renderview.runtimeconfig.json
+C:\Users\vincentslai\Documents\DojoAssignments\c\renderview\bin\Debug\netcoreapp1.1\renderview.runtimeconfig.dev.json
+C:\Users\vincentslai\Documents\DojoAssignments\c\renderview\bin\Debug\netcoreapp1.1\renderview.dll
+C:\Users\vincentslai\Documents\DojoAssignments\c\renderview\bin\Debug\netcoreapp1.1\renderview.pdb
+C:\Users\vincentslai\Documents\DojoAssignments\c\renderview\obj\Debug\netcoreapp1.1\renderview.AssemblyInfo.cs
+C:\Users\vincentslai\Documents\DojoAssignments\c\renderview\obj\Debug\netcoreapp1.1\renderview.dll
+C:\Users\vincentslai\Documents\DojoAssignments\c\renderview\obj\Debug\netcoreapp1.1\renderview.pdb
