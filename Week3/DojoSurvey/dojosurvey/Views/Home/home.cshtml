@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <title>Dojo Survey</title>
+  </head>
+  <body>
+    
+    <form action="Result" method="post">
+        <div class="container">
+            <h1>Dojo Survey</h1>
+            <div class="form-group">
+                <label>Your Name</label>
+                <input type="text" class="form-control" name="FullName" placeholder="First and Last Name">
+            </div>
+            <div class="form-group">
+                <label >Dojo Location</label>
+                <select class="form-control" name="LocationField">
+                    <option>Seattle</option>
+                    <option>Los Angles</option>
+                    <option>Silicon Valley</option>
+                    <option>Washington DC</option>
+                    <option>Houston</option>
+                    <option>Tulsa</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label >Favorite Language</label>
+                <select class="form-control" name="ProgrammingField">
+                    <option>Python</option>
+                    <option>C#</option>
+                    <option>MEAN</option>
+                    <option>Ruby on Rails</option>
+                    <option>Js Front End</option>
+                    <option>PHP - Lamp</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Comment (Optional):</label>
+                <textarea class="form-control" name="Comment">
+                </textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </div> <!--end of container -->
+    </form>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  </body>
+</html>
